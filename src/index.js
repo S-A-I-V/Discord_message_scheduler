@@ -6,7 +6,7 @@ import schedule from 'node-schedule';
 
 const TOKEN = process.env.BOT_TOKEN;
 const CLIENT_ID = process.env.CLIENT_ID;
-const GUILD_ID = '1280373199305048107';
+const GUILD_ID = '';
 
 const client = new Client({ intents: [] });
 const rest = new REST({ version: '10' }).setToken(TOKEN);
